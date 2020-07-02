@@ -1,0 +1,105 @@
+Found a 7 line (49 tokens) duplication in the following files: 
+Starting at line 20 of F:\eclipseWorkplace\MyLifeGame\src\Game\MapTest.java
+Starting at line 48 of F:\eclipseWorkplace\MyLifeGame\src\Game\MapTest.java
+
+	void test	() {
+		for(int i=0;i<16;i++) {
+			for(int j=0;j<16;j++) {
+				cell[i][j].setStatus(1);
+			}
+		}
+		Map.getLivings(cell);
+=====================================================================
+Found a 6 line (46 tokens) duplication in the following files: 
+Starting at line 34 of F:\eclipseWorkplace\MyLifeGame\src\Game\MapTest.java
+Starting at line 56 of F:\eclipseWorkplace\MyLifeGame\src\Game\MapTest.java
+
+		for(int i=0;i<16;i++) {
+			for(int j=0;j<16;j++) {
+				cell[i][j].setStatus(0);
+			}
+		}
+		Map.getLivings(cell);
+=====================================================================
+Found a 3 line (36 tokens) duplication in the following files: 
+Starting at line 21 of F:\eclipseWorkplace\MyLifeGame\src\Game\MapTest.java
+Starting at line 34 of F:\eclipseWorkplace\MyLifeGame\src\Game\MapTest.java
+
+		for(int i=0;i<16;i++) {
+			for(int j=0;j<16;j++) {
+				cell[i][j].setStatus(0);
+=====================================================================
+Found a 6 line (35 tokens) duplication in the following files: 
+Starting at line 23 of F:\eclipseWorkplace\MyLifeGame\src\Game\MapTest.java
+Starting at line 36 of F:\eclipseWorkplace\MyLifeGame\src\Game\MapTest.java
+
+				cell[i][j].setStatus(0);
+			}
+		}
+		Map.getLivings(cell);
+		for(int i=0;i<16;i++) {
+			for(int j=0;j<16;j++) {
+=====================================================================
+Found a 3 line (35 tokens) duplication in the following files: 
+Starting at line 20 of F:\eclipseWorkplace\MyLifeGame\src\Game\Map.java
+Starting at line 49 of F:\eclipseWorkplace\MyLifeGame\src\Game\Map.java
+
+    public static void Print(Cell[][]cell){
+        for(int i=0;i<xlength;i++){
+            for(int j=0;j<ylength;j++){
+=====================================================================
+Found a 5 line (29 tokens) duplication in the following files: 
+Starting at line 64 of F:\eclipseWorkplace\MyLifeGame\src\Game\GUI.java
+Starting at line 31 of F:\eclipseWorkplace\MyLifeGame\src\Game\MapTest.java
+
+				else assertEquals(3,cell[i][j].getLiving());
+			}
+		}
+		for(int i=0;i<16;i++) {
+			for(int j=0;j<16;j++) {
+=====================================================================
+Found a 3 line (28 tokens) duplication in the following files: 
+Starting at line 67 of F:\eclipseWorkplace\MyLifeGame\src\Game\GUI.java
+Starting at line 27 of F:\eclipseWorkplace\MyLifeGame\src\Game\MapTest.java
+
+		for(int i=0;i<16;i++) {
+			for(int j=0;j<16;j++) {
+				if(i>0&&i<15&&j>0&&j<15) assertEquals(8,cell[i][j].getLiving());
+=====================================================================
+Found a 3 line (27 tokens) duplication in the following files: 
+Starting at line 21 of F:\eclipseWorkplace\MyLifeGame\src\Game\Map.java
+Starting at line 39 of F:\eclipseWorkplace\MyLifeGame\src\Game\Map.java
+
+        for(int i=0;i<xlength;i++){
+            for(int j=0;j<ylength;j++){
+            	int status=cell[i][j].getStatus();
+=====================================================================
+Found a 3 line (27 tokens) duplication in the following files: 
+Starting at line 58 of F:\eclipseWorkplace\MyLifeGame\src\Game\GUI.java
+Starting at line 39 of F:\eclipseWorkplace\MyLifeGame\src\Game\MapTest.java
+
+		Map.getLivings(cell);
+		for(int i=0;i<16;i++) {
+			for(int j=0;j<16;j++) {
+=====================================================================
+Found a 2 line (26 tokens) duplication in the following files: 
+Starting at line 21 of F:\eclipseWorkplace\MyLifeGame\src\Game\MapTest.java
+Starting at line 27 of F:\eclipseWorkplace\MyLifeGame\src\Game\MapTest.java
+
+		for(int i=0;i<16;i++) {
+			for(int j=0;j<16;j++) {
+=====================================================================
+Found a 2 line (26 tokens) duplication in the following files: 
+Starting at line 9 of F:\eclipseWorkplace\MyLifeGame\src\Game\Map.java
+Starting at line 21 of F:\eclipseWorkplace\MyLifeGame\src\Game\Map.java
+
+    	for(int i=0;i<xlength;i++) {
+    		for(int j=0;j<ylength;j++) {
+=====================================================================
+Found a 2 line (26 tokens) duplication in the following files: 
+Starting at line 59 of F:\eclipseWorkplace\MyLifeGame\src\Game\GUI.java
+Starting at line 67 of F:\eclipseWorkplace\MyLifeGame\src\Game\GUI.java
+Starting at line 21 of F:\eclipseWorkplace\MyLifeGame\src\Game\MapTest.java
+
+		for(int i=0;i<16;i++) {
+			for(int j=0;j<16;j++) {
